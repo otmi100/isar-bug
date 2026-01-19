@@ -9,22 +9,7 @@ class MyObjectWrapper extends ChangeTracker<UuidValue> {
 
   final Id? isarId;
 
-  @Index()
-  final String? userId;
-  @Index()
-  final String? customerId;
-
-  const MyObjectWrapper({
-    required this.stringifiedId,
-    required this.isarId,
-    required this.userId,
-    required this.customerId,
-    required super.dataState,
-    super.lastUpdated,
-    super.isDeleted,
-    super.lastModified,
-    super.createdAt,
-  });
+  const MyObjectWrapper({required this.stringifiedId, required this.isarId});
 
   @override
   @ignore
