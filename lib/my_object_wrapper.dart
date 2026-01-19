@@ -2,6 +2,8 @@ import 'package:isar_analyzer/change_tracker.dart';
 import 'package:isar_community/isar.dart';
 import 'package:uuid/uuid.dart';
 
+part 'my_object_wrapper.g.dart';
+
 @collection
 class MyObjectWrapper extends ChangeTracker<UuidValue> {
   @Index()
