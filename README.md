@@ -1,17 +1,19 @@
 # isar_analyzer
 
-A new Flutter project.
+````
+isar_analyzer git:(main) ✗ dart run build_runner build
 
-## Getting Started
+Building package executable...
+Built build_runner:build_runner.
+0s isar_community_generator on 5 inputs: 5 skipped
+0s source_gen:combining_builder on 5 inputs: 5 skipped
 
-This project is a starting point for a Flutter application.
+Failed to build with build_runner in 1s; wrote 0 outputs.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# isar-bug
+log output for isar_community_generator on lib/my_object_wrapper.dart
+E Unsupported type. Please annotate the property with @ignore.
+  package:isar_analyzer/change_tracker.dart:18:11
+     ╷
+  18 │   Tid get id;
+     │           ^^    ```
+````
