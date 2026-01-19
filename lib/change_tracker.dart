@@ -13,9 +13,9 @@ enum DataState {
   rehydrating, // only [LocalFileMetadata] uses this
 }
 
-abstract class ChangeTracker<Tid> {
+abstract class ChangeTracker<T> {
   @ignore
-  Tid get id;
+  T get object;
 
   /// this is last updated by client
   @Index()
