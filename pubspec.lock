@@ -185,15 +185,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
-  dropdown_search:
-    dependency: "direct overridden"
-    description:
-      path: "."
-      ref: close-popup-on-unmount
-      resolved-ref: a3906d413a45d3e4610070db065b319669f2d32b
-      url: "https://github.com/otmi100/dropdown_search"
-    source: git
-    version: "6.0.2"
   fake_async:
     dependency: transitive
     description:
