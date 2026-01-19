@@ -15,5 +15,5 @@ class MyObjectWrapper extends ChangeTracker<UuidValue> {
 
   @override
   @ignore
-  UuidValue get object => UuidValue.fromString(stringifiedId);
+  String get object => stringifiedId;
 }
